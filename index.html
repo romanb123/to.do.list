@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-3.3.7-dist/css/style.css" />
+  
+
+</head>
+<body onclick="remove(event)">
+  
+ <div class="container intro">
+<form id="forma" action="#" onsubmit="getvalue()" >
+     <legend>to do list</legend>
+     <div class="form-group">
+         <label>insert a mission</label>
+         <input type="text" class="form-control"  placeholder="to do">
+     
+     <button type="submit" class="btn btn-primary">add</button>
+ </div>
+</form>   
+ </div>
+ 
+ <div class="container-fluid">
+  <ul class="list-group" id="myDIV">
+     <li class="list-group-item">mission 1</li>
+     <button type="button" class="btn btn-primary btn-lg" >delete1</button>
+     
+ </ul>    
+ </div>
+  <script src="bootstrap-3.3.7-dist/js/myJs.js"></script> 
+  <script src="bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
+</body>
+</html>
